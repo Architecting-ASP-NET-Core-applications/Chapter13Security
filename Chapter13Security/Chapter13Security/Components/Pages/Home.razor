@@ -1,0 +1,22 @@
+﻿@page "/"
+@rendermode InteractiveAuto
+@using Models
+@inject Configuration Config
+@inject HttpClient HttpClient
+
+<PageTitle>Home</PageTitle>
+
+<h1>My secret setting</h1>
+
+<p><b>MySettingKey:</b> @Config.MySettingKey</p>
+
+<button @onclick="GetCookieAsync">Ger encrypted cookie</button>
+
+<p>@result</p>
+@code {
+    private string result = "";
+    private async Task GetCookieAsync()
+    {
+        result = await HttpClient.GetStringAsync("/get-cookie-content");
+    }
+}

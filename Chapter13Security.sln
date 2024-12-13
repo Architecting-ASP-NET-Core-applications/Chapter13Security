@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter13Security", "Chapter13Security\Chapter13Security\Chapter13Security.csproj", "{B5250E68-31F0-4F66-909D-EC97E1C6FA0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter13Security.Client", "Chapter13Security\Chapter13Security.Client\Chapter13Security.Client.csproj", "{E02C91C8-209F-48DC-94C7-E494BBE5FEBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5250E68-31F0-4F66-909D-EC97E1C6FA0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5250E68-31F0-4F66-909D-EC97E1C6FA0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5250E68-31F0-4F66-909D-EC97E1C6FA0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5250E68-31F0-4F66-909D-EC97E1C6FA0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02C91C8-209F-48DC-94C7-E494BBE5FEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02C91C8-209F-48DC-94C7-E494BBE5FEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02C91C8-209F-48DC-94C7-E494BBE5FEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02C91C8-209F-48DC-94C7-E494BBE5FEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {906FA8C1-A4D8-4F7B-9A13-C3FCF0C21D41}
+	EndGlobalSection
+EndGlobal
